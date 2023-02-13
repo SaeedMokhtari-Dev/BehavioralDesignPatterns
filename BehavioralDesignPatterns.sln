@@ -1,8 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatePattern", "StatePattern\StatePattern.csproj", "{EA914908-C59B-422D-8F48-3453DDD63670}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatePattern", "StatePattern\StatePattern\StatePattern.csproj", "{EA914908-C59B-422D-8F48-3453DDD63670}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatePattern.Tests", "StatePattern.Tests\StatePattern.Tests.csproj", "{AD34FFDF-98D7-461E-915D-61774331D462}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatePattern.Tests", "StatePattern\StatePattern.Tests\StatePattern.Tests.csproj", "{AD34FFDF-98D7-461E-915D-61774331D462}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StatePattern", "StatePattern", "{8FAD5899-81D4-4C4B-A703-0F9E8AEBEBE1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ObserverPattern", "ObserverPattern", "{3D261733-7066-428A-BE65-2C75F866404B}"
+	ProjectSection(SolutionItems) = preProject
+		ObserverPattern\README.md = ObserverPattern\README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "ObserverPattern\Observer\Observer.csproj", "{CBEDC835-5B05-45CB-A43F-10EFA22361A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer.Tests", "ObserverPattern\Observer.Tests\Observer.Tests.csproj", "{C5EF0B53-9B10-44EF-A204-1E40B491DD7A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +29,19 @@ Global
 		{AD34FFDF-98D7-461E-915D-61774331D462}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD34FFDF-98D7-461E-915D-61774331D462}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD34FFDF-98D7-461E-915D-61774331D462}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBEDC835-5B05-45CB-A43F-10EFA22361A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBEDC835-5B05-45CB-A43F-10EFA22361A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBEDC835-5B05-45CB-A43F-10EFA22361A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBEDC835-5B05-45CB-A43F-10EFA22361A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5EF0B53-9B10-44EF-A204-1E40B491DD7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5EF0B53-9B10-44EF-A204-1E40B491DD7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5EF0B53-9B10-44EF-A204-1E40B491DD7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5EF0B53-9B10-44EF-A204-1E40B491DD7A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EA914908-C59B-422D-8F48-3453DDD63670} = {8FAD5899-81D4-4C4B-A703-0F9E8AEBEBE1}
+		{AD34FFDF-98D7-461E-915D-61774331D462} = {8FAD5899-81D4-4C4B-A703-0F9E8AEBEBE1}
+		{CBEDC835-5B05-45CB-A43F-10EFA22361A7} = {3D261733-7066-428A-BE65-2C75F866404B}
+		{C5EF0B53-9B10-44EF-A204-1E40B491DD7A} = {3D261733-7066-428A-BE65-2C75F866404B}
 	EndGlobalSection
 EndGlobal
